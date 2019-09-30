@@ -5,3 +5,49 @@ h1, h2 {
 img {
   width:100%
 }
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* start of navigation bar design */
+nav.main-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #f3f3f3;
+}
+
+.main-nav ul{
+list-style-type: inherit;
+}
+
+.main-nav ul li {
+  float: left;
+}
+
+.main-nav ul li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform:  uppercase;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* end of navigation bar design */
+.hornet-img {
+  width: 50px;
+}
