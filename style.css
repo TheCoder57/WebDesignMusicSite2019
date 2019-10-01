@@ -1,5 +1,5 @@
 h1, h2 {
-  color: green;
+  color: white;
 }
 
 img {
@@ -12,13 +12,20 @@ body{
 }
 
 /* start of navigation bar design */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
 nav.main-nav{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   border: 1px solid black;
-  background-color: #f3f3f3;
+  background-color: black;
 }
 
 .main-nav ul{
@@ -31,23 +38,28 @@ list-style-type: inherit;
 
 .main-nav ul li a {
   display: block;
-  color: #666;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
   text-decoration: none;
   text-transform:  uppercase;
+  height: 1px;
 }
 
 li a:hover:not(.active) {
   background-color: #ddd;
 }
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+
 
 /* end of navigation bar design */
+/* start of logo */
 .hornet-img {
-  width: 50px;
+  width: 5%;
+
+
 }
+
+.name {
+  float: left
+}
+/* end of logo */
