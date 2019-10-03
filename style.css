@@ -1,4 +1,4 @@
-h1, h2 {
+h1 {
   color: white;
 }
 
@@ -12,12 +12,7 @@ body{
 }
 
 /* start of navigation bar design */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
 
-}
 
 nav.main-nav{
   list-style-type: none;
@@ -26,6 +21,12 @@ nav.main-nav{
   overflow: hidden;
   border: 1px solid black;
   background-color: black;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.9s;
 }
 
 .main-nav ul{
@@ -42,7 +43,6 @@ list-style-type: inherit;
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  text-transform:  uppercase;
   height: 1px;
 }
 
@@ -54,12 +54,25 @@ li a:hover:not(.active) {
 /* end of navigation bar design */
 /* start of logo */
 .hornet-img {
-  width: 5%;
+  width: 3%;
+  float: left;
+
 
 
 }
 
 .name {
-  float: left
-}
+  float: left;
+font-family: 'Concert One', cursive;
+color: #F5F5F5;
 /* end of logo */
+/* start of white space */
+main{
+  margin-top: 70px;
+}
+/* end of white */
+/* start of font */
+.main-nav{
+font-family: 'Varela Round', sans-serif;
+
+}

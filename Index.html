@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
@@ -10,19 +13,33 @@
   <title>Top 15 Songs | HeightsMusic</title>
 
 
+  <script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
+
 </head>
 <body>
   <header>
 
-    <img class="hornet-img" src="http://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/351/2017/07/26152817/6311.png"
-    alt="Test" title="Test" >
-    <nav class="main-nav">
-      <h1 class="name">HeightsMusic</h1>
+
+    <nav id="navbar" class="main-nav">
+      <img class="hornet-img" src="http://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/351/2017/07/26152817/6311.png"
+      alt="Test" title="Test" >
+      <h1 class="name">heightsmusic</h1>
 
       <ul>
         <li>  <a hr ef="#">Home Page</a></li>
         <li>  <a href="vote.html" title="Vote Now">Vote</a></li>
-        <li>  <a href="" title="Information">Information</a></li>
+        <li>  <a href="about.html" title="About">About</a></li>
         <li>  <a href="contact.html" title="Contact">Contact</a></li>
       </ul>
     </nav>
