@@ -6,9 +6,21 @@
     <meta name="description" content="This page is about me and contains info on the website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="author" content="Kwasi Fosu">
-     <link rel="stylesheet" href="/css/master.css">
+     <link rel="stylesheet" href="style.css">
 
     <title>Read About Us | HeightsMusic</title>
+    <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-100px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
 
   </head>
 
@@ -16,18 +28,25 @@
   <body>
 
     <header>
-  <h2>Navigation</h2>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="vote.html">Vote</a></li>
-        <li><a href="information.html">Information</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+
+      <nav id="navbar" class="main-nav">
+        <img class="hornet-img" src="http://s3-us-west-2.amazonaws.com/sportshub2-uploads-prod/files/sites/351/2017/07/26152817/6311.png"
+        alt="Test" title="Test" >
+        <h1 class="name">heightsmusic</h1>
+
+        <ul>
+          <li>  <a hr ef="index.html">Home Page</a></li>
+          <li>  <a href="vote.html" title="Vote Now">Vote</a></li>
+          <li>  <a href="#" title="About">About</a></li>
+          <li>  <a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </nav>
       </header>
+<main>
     <section>
+
     <h2>About Me</h2>
+      <p class="a">
     <p>Hey, I'm Kwasi. Im currently a sophomore student at Licking Heights Highschool.<br>
     This website is a big project we are working on and I hope the website is easily navigatable and fit to be a rating site. <br>
       If you need to contact me or have any suggestions feel free to utilize the contact info on the bottom. </p>
@@ -43,8 +62,10 @@
   <p>The goal of this website is to honestly give people new music hear. <br>
 The Top 15 songs are changed weekly based on new information from our schools votes.
     Try to have fun and rate your favorite songs!<br>
+
     </p>
     </section>
+  </main>
 
 
 

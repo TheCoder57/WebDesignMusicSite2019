@@ -1,7 +1,162 @@
-h1, h2 {
-  color: green;
+h1 {
+  color: white;
 }
 
 img {
-  width:100%
+  width:100%;
+  margin 0;
+  padding 0;
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.homebody{
+
+  margin-left: 0;
+  text-align: center;
+
+
+}
+
+
+
+/* start of navigation bar design */
+
+
+nav.main-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: black;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.9s;
+}
+
+.main-nav ul{
+list-style-type: inherit;
+}
+
+.main-nav ul li {
+  float: left;
+}
+
+.main-nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  height: 1px;
+}
+
+nav li a:hover:not(.active) {
+  color: #FFFF66;
+}
+
+ nav li a {
+  font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 13px;
+}
+
+/* end of navigation bar design */
+/* start of logo */
+.hornet-img {
+  width: 3%;
+  float: left;
+
+
+
+}
+
+
+/* end of logo */
+/* start of white space */
+main{
+  margin-top: 70px;
+}
+/* end of white */
+/* start of font */
+.hot15 {
+font-family: 'Fredoka One', cursive;
+  color: black;
+  text-transform: full-width;
+}
+.name {
+  float: left;
+font-family: 'Concert One', cursive;
+color: #F5F5F5;
+}
+/* end of font */
+/* start of images */
+
+.artists-img{
+  width: 100px;
+  align-items: right;
+}
+.genius {
+  width: 30px;
+  float:
+}
+/* end of images */
+main ol.custom {
+  list-style-type: none;
+
+}
+
+main ol.custom > li {
+  counter-increment: customlistcounter;
+}
+
+main ol.custom > li:before {
+  content: counter(customlistcounter) " ";
+  font-weight: bold;
+   float: left;
+  width: 3em;
+}
+
+main ol.custom:first-child {
+  counter-reset: customlistcounter;
+}
+
+.custom li {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 900px;
+height: 60px;
+margin: auto;
+outline: 1px grey solid;
+
+}
+a{
+  text-decoration: none;
+}
+
+.custom li {
+  margin-bottom: 1px;
+  padding: 20px;
+}
+
+.custom li> *:not(img) {
+  margin-right: 10px;
+}
+
+.custom li img{
+  order: 2;
+  margin-left: auto;
 }
