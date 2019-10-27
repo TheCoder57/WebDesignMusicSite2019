@@ -92,11 +92,15 @@ main{
 font-family: 'Fredoka One', cursive;
   color: black;
   text-transform: full-width;
+  font-size: 30px;
 }
 .name {
   float: left;
 font-family: 'Concert One', cursive;
 color: #F5F5F5;
+}
+.week {
+  font-size: 20px;
 }
 /* end of font */
 /* start of images */
@@ -138,7 +142,7 @@ main ol.custom:first-child {
   align-items: center;
   background: white;
   width: 900px;
-height: 40px;
+height: 100px;
 margin: auto;
 outline: 1px grey solid;
 
