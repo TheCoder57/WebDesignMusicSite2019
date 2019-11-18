@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -14,7 +12,7 @@
 
 
   </head>
-  <body>
+  <body class="homebody">
     <header>
 
      <nav class="main-nav">
@@ -30,13 +28,13 @@
     </nav>
     </header>
     <main>
-      <section>
-      <h2>This Weeks' Hot Artist</h2>
+      <section class="votegrid">
+      <h2 class="fredoka">This Weeks' Hot Artist</h2>
       <p>(Video of the one of the artist of the weeks songs)</p>
-    <iframe src="https://www.youtube.com/embed/9YffrCViTVk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/watch?v=XIMLoLxmTDw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section>
-      <h2>Vote for your Favorite Artist Down Below</h2>
+    <section class="votegrid">
+      <h2 class="fredoka">Vote for your Favorite Artist Down Below</h2>
       <form action="/html/tags/html_form_tag_action.cfm" method="post">
 <div>
 <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
@@ -45,7 +43,7 @@ Enter artist name...
 </div>
 <input type="submit" value="Submit">
 </form>
-<p>Submission for the week of ?/?/19</p>
+<p class="lora">Submission for the week of ?/?/19</p>
 
     </section>
 
@@ -54,11 +52,11 @@ Enter artist name...
 
 
 
-<footer>
-  <a href="https://www.instagram.com/kwqsii">instragram</a>
-  © 2019 GitHub, Inc.
-</footer>
 
+        <footer class="footer">
+          <a href="https://www.instagram.com/kwqsii"><img class="instagram" src="instagram.png" alt=""></a>
+
+        </footer>
 
 
 

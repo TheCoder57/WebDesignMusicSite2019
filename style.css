@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Fjalla+One|Fredoka+One|Lora|Signika:300&display=swap');
+
+
+
 h1 {
   color: white;
 }
 
 img {
   width:100%;
-  margin 0;
-  padding 0;
+
 
 
 }
@@ -19,6 +22,9 @@ img {
 
   margin-left: 0;
   text-align: center;
+
+
+
 
 
 }
@@ -43,13 +49,19 @@ nav.main-nav{
   transition: top 0.9s;
 }
 
+
 .main-nav ul{
 list-style-type: inherit;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
 }
 
 .main-nav ul li {
   float: left;
-}
+
+  }
+
 
 .main-nav ul li a {
   display: block;
@@ -58,6 +70,9 @@ list-style-type: inherit;
   padding: 16px;
   text-decoration: none;
   height: 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 nav li a:hover:not(.active) {
@@ -86,6 +101,9 @@ nav li a:hover:not(.active) {
 main{
   margin-top: 70px;
 }
+body{
+  background-color: 	#F0F0F0;
+}
 /* end of white */
 /* start of font */
 .hot15 {
@@ -93,6 +111,14 @@ font-family: 'Fredoka One', cursive;
   color: black;
   text-transform: full-width;
   font-size: 30px;
+}
+.fredoka {
+font-family: 'Fjalla One', sans-serif;
+
+}
+.about {
+  font-family: 'Fjalla One', sans-serif;
+
 }
 .name {
   float: left;
@@ -102,16 +128,27 @@ color: #F5F5F5;
 .week {
   font-size: 20px;
 }
+.list {
+  font-size: 17px;
+font-family: 'Signika', sans-serif;
+}
+.lora {
+  font-family: 'Lora', serif;
+}
 /* end of font */
 /* start of images */
 
 .artists-img{
   width: 100px;
-  align-items: right;
+
 }
 .genius {
   width: 30px;
-  float:
+
+}
+.instagram {
+  width: 30px;
+  border: 1px solid white;
 }
 /* end of images */
 main ol.custom {
@@ -146,6 +183,7 @@ height: 100px;
 margin: auto;
 outline: 1px grey solid;
 
+
 }
 a{
   text-decoration: none;
@@ -164,3 +202,39 @@ a{
   order: 2;
   margin-left: auto;
 }
+.footer {
+  background:	#801717;
+}
+/*start grid */
+.custom{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+.contactgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+
+.votegrid {
+
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+
+.aboutgrid {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
