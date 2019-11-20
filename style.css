@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Fjalla+One|Fredoka+One|Lora|Signika:300&display=swap');
 
 
-
+/* non class changes */
 h1 {
   color: white;
 }
@@ -17,23 +17,8 @@ img {
   margin: 0;
   padding: 0;
 }
+/* non class changes */
 
-.homebody{
-
-  margin-left: 0;
-  text-align: center;
-  width: 100vw;
-  height:100vh;
-  display: grid;
-   grid-template-rows: auto 1fr auto;
-   grid-template-columns: 100%;
-
-
-
-
-
-
-}
 
 
 
@@ -158,6 +143,19 @@ font-family: 'Signika', sans-serif;
   border: 1px solid white;
 }
 /* end of images */
+/* start of designing main */
+.homebody{
+
+  margin-left: 0;
+  text-align: center;
+  width: 100vw;
+  height:100vh;
+  display: grid;
+   grid-template-rows: auto 1fr auto;
+   grid-template-columns: 100%;
+
+}
+
 main ol.custom {
   list-style-type: none;
 
@@ -213,6 +211,7 @@ a{
   background:	#801717;
 
 }
+/* end of designing main */
 /*start grid */
 .custom{
   display: grid;
@@ -257,3 +256,4 @@ a{
   .aboutpage {
     color: black
   }
+  /* end of grid */
