@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Fjalla+One|Fredoka+One|Lora|Signika:300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /* non class changes */
 h1 {
@@ -109,6 +109,7 @@ font-family: 'Fjalla One', sans-serif;
 }
 .about {
   font-family: 'Fjalla One', sans-serif;
+  font-size: 80px;
 
 }
 .name {
@@ -127,6 +128,11 @@ font-family: 'Signika', sans-serif;
   font-family: 'Lora', serif;
   list-style: none;
 }
+.lora2 {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  font-size: 18px;
+}
 /* end of font */
 /* start of images */
 
@@ -141,6 +147,36 @@ font-family: 'Signika', sans-serif;
 .instagram {
   width: 30px;
   border: 1px solid white;
+}
+.heights {
+  width: 300px;
+  position: relative;
+  top: -100px;
+  text-align: left;
+  left: 150px;
+  border: 20px solid #801717;
+padding: 0px;
+
+}
+.bee{
+  width: 300px;
+  position: relative;
+  top: -150px;
+  text-align: left;
+  left: 300px;
+  border: 20px solid #801717;
+  padding: 0px;
+}
+.music{
+  width: 300px;
+  top: -10px;
+  position: relative;
+  text-align: left;
+  left: 450px;
+  border: 20px solid #801717;
+  padding: 0px;
+}
+}
 }
 /* end of images */
 /* start of designing main */
@@ -208,7 +244,7 @@ a{
   margin-left: auto;
 }
 .footer {
-  background:	#801717;
+  background:	#000000	 ;
 
 }
 /* end of designing main */
@@ -261,6 +297,19 @@ a{
 
   }
   .aboutpage {
-    color: black
+    color: black;
   }
   /* end of grid */
+  .about1 {
+    text-align: left;
+    padding-left: 120px;
+  }
+  .about2 {
+    text-align: left;
+    padding-left: 95px;
+  }
+  .about3 {
+    text-align: left;
+    padding-left: 100px;
+
+  }
