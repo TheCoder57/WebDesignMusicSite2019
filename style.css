@@ -110,7 +110,7 @@ font-family: 'Fjalla One', sans-serif;
 }
 .about {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 80px;
+  font-size: 50px;
 
 }
 .name {
@@ -133,14 +133,31 @@ font-family: 'Signika', sans-serif;
 .lora2 {
   font-family: 'Roboto', sans-serif;
   list-style: none;
-  font-size: 18px;
-}
+  font-size: 18px; }
+
+  .votetexting {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+  }
+  .contact1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    grid-column: 1/ span 2;
+  }
+
+
 /* end of font */
 /* start of images */
 
 .artists-img{
   width: 100px;
 
+  height: auto;
+
+}
+.responsive{
+  height: auto;
+  width: 100%;
 }
 .genius {
   width: 30px;
@@ -230,8 +247,8 @@ outline: 1px grey solid;
 
 }
 a{
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 
 .custom li {
   margin-bottom: 1px;
@@ -298,15 +315,25 @@ a{
     color: black;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-size: 80px;
-
-
-
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
   }
+
+    .contact12 {
+      font-family: 'Fjalla One', sans-serif;
+      text-align: center;
+      grid-column: 1/ span 2;
+      font-size: 40px;
+    }
+
+
+
+
   .aboutpage {
     color: black;
   }
   /* end of grid */
+  /*start about customizations */
   .about1 {
     text-align: left;
     padding-left: 120px;
@@ -320,12 +347,22 @@ a{
     padding-left: 100px;
 
   }
-  .votetext {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 50px;
+  /* end of about customizations */
+  /* start of vote customizations */
+
+  .frane {
+    border: 10px solid black;
   }
+  /* end of vote customizations */
+  /* start of contact customizations */
   .contact1 {
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
     grid-column: 1/ span 2;
+    font-size: 50px;
+  }
+  /* end of contact customizations */
+  /* start of link customization */
+  .linkcolor {
+    color: black;
   }
