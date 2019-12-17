@@ -314,9 +314,16 @@ a{
   .votenow {
     color: black;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     font-size: 50px;
     font-family: 'Fjalla One', sans-serif;
+    grid-column: 1/ span 2;
+
+  }
+  .votenow2{
+    font-size: 75px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
   }
 
     .contact12 {
@@ -421,6 +428,7 @@ a{
   width: 300px;
 height: 45%;
 margin-top: 150px;
+
 }
 .artists-img{
   width: 150px;
@@ -436,7 +444,29 @@ margin-top: 125px;
 
 }
 .contactgrid {
-margin-top: 150px;
+margin-top: 250px;
   }
+  .votegrid {
+margin-top: 200px;
+
+    }
+    .contact12 {
+margin-top: 0px;
+      text-align: center;
+
+
+    }
+    .custom{
+
+      grid-row-gap: 0px;
+    }
+    .contact13{
+      margin-top: 150px;
+    }
 }
   /* end of media */
+  /* skip to content */
+  .sr-only {
+    visibility: hidden;
+    margin-top: 75px;
+  }
